@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulador</title>
+</head>
+<body>
+    <h1>Calculador de Cuotas</h1>
+    <form id="miFormulario" name="" method="post" class="formulario">
+        <label class="precio">Precio:</label>
+        <input type="number" name="" id="monto" autofocus placeholder="Ingrese su monto">
+        <button type="button" onclick="calcular();">Calcular</button>
+        <button onclick="limpiar();">Limpiar</button>
+    </form>
+    <p>Su monto en cuotas es: </p>
+    <p>En 3 cuotas: <span id="3-cuotas"></span></p>
+    <p>En 6 cuotas: <span id="6-cuotas"></span></p>
+    <p>En 9 cuotas: <span id="9-cuotas"></span></p>
+    <p>En 12 cuotas: <span id="12-cuotas"></span></p>
+    <p>En 24 cuotas: <span id="24-cuotas"></span></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
